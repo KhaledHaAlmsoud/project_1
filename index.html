@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Sound Music</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- وعرفت Id , Div حاوي للازار العلوية  -->
+ <div id="Musicly"></div>
+    <div id = "tiptool">
+
+      <button id="home" onclick="hideMusic()">Home</button>
+      <button id="fav">About </button>
+      <button id="addMusic" onclick="showMusic()">Add Music </button>
+      <button id="register">Register</button>
+    </div>
+
+
+<!--(استخدمت Bootstrp) (انشات كلاس container)  -->
+<!--Boostrap استخدمت نظام الصف والعمود في  -->
+
+    <div class="container" style="display: flex;margin: auto;justify-content: flex-end;">
+      <div class="row">
+        <!-- <div class="col-5">
+          <img id="Music"
+            src="https://cdn10.bigcommerce.com/s-o6vy9cv/products/75351/images/75827/201627__23348.1499268024.500.500.jpg?c=2"
+            width="180px" height="180px" alt="">
+          <span id="FeadBack">
+             <p> <b>Perfect -</b> March 30, 2018</p> 
+5            
+            </span>
+            
+            <audio src="Perfect.mp3" controls></audio>
+
+        </div>
+
+        <div class="col-5">
+          <img id="Music" src="https://images.genius.com/ccec68be22e8859347bbe551cb2288e3.1000x1000x1.png" 
+          width="180px" height="180px" alt="">
+          <span id="FeadBack">
+            <p> <b>Building Lights - </b>October 4, 2019</p>
+          </span>
+          <audio src="Blinding Lights.mp3" controls></audio>
+        </div>
+
+        <div class="col-5">
+          <img id="Music"
+            src="https://c-cl.cdn.smule.com/rs-s-sf-4/arr/77/7a/34627733-f4d0-418e-a310-4612a9239dcd_1024.jpg"
+            width="180px" height="180px" alt="">
+          <span id="FeadBack">
+            <p> <b>Everything - </b> November 13, 2019</p>
+          </span>
+          <audio src="everything i wanted.mp3" controls></audio>
+        </div>
+
+        <div class="col-5">
+          <img id="Music"
+            src="https://1.bp.blogspot.com/-neC0NjkYC-M/X41qkdR1bbI/AAAAAAAAJBA/K7R3Lqx4yzUT88R1vOvOSu_zIoD0sk0zACLcBGAsYHQ/s1600/lovely%2B-%2Bbillie%2Beilish%2Band%2Bkhalid.webp"
+             width="180px" height="180px"alt="">
+          <span id="FeadBack">
+            <p> <b>Lovely - </b> April 19, 2018</p>
+          </span>
+          <audio src="lovley.mp3" controls> </audio>
+        </div> -->
+      </div>
+
+
+
+
+
+
+
+      <div id="mu">
+        <input type="text" placeholder="add music" id= "name">
+        <input type="text" placeholder="image" id="image">
+        <input type="text" placeholder="audio" id= "audio">
+        <input type="text" placeholder="date" id="date">
+      <button onclick="addMusic()">add</button>
+      </div>
+
+        <script src="script.js"></script>
+
+</body>
+</html>

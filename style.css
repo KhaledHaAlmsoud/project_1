@@ -1,0 +1,64 @@
+#tiptool {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  position: relative;
+  top: 20px;
+}
+
+#tiptool button {
+  border-radius: 20px;
+  width: 190px;
+}
+
+#tiptool button:hover {
+  background-color: rgba(20, 190, 220, 0.473);
+}
+
+body {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210326/pngtree-concert-musical-instrument-music-background-image_595286.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  /* width: 100%; */
+  height: 1300px;
+}
+
+.row div {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: rgba(17, 214, 221, 0.438);
+  margin: 15px;
+  position: relative;
+  top: 200px;
+}
+
+#mu {
+  display: grid;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+
+  position: relative;
+  top: 300px;
+}
+
+#mu * {
+  margin-top: 10px;
+}
+
+#btn-delete {
+  height: 35px;
+  width: 130px;
+  margin: 5px;
+  background-color: white;
+  border: 1px solid rgb(124, 118, 118);
+  border-radius: 30px;
+  position: relative;
+}
